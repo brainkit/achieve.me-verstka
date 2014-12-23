@@ -1,0 +1,120 @@
+/*
+ *	Login page
+ *
+ */
+
+.login-page {
+	height: 100%;
+}
+
+.login-page .logo-block {
+	padding-top: 118px;
+	text-align: center;
+}
+
+.login-page .login-form {
+	margin-top: 42px;
+	padding: 0 48px;
+}
+
+.login-page .login-form input[type="email"],
+.login-page .login-form input[type="password"] {
+	width: 100%;
+	margin-top: 15px;
+}
+
+.login-page .login-form input:first-child {
+	margin-top: 0;
+}
+
+.login-page .login-form .signup-button {
+	margin-top: 25px;
+}
+
+
+.login-page .login-form .login-button {
+	position: absolute;
+	bottom: 35px;
+	width: auto;
+	left: 48px;
+	right: 48px;
+}
+
+
+
+
+/*
+ *	Social page
+ *
+ */
+
+.hero {
+	background: #13a2fe;
+	background: -moz-linear-gradient(60deg,  #13a2fe 0%, #13c9fe 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#13a2fe), color-stop(100%,#13c9fe));
+	background: -webkit-linear-gradient(60deg,  #13a2fe 0%,#13c9fe 100%);
+	background: -o-linear-gradient(60deg,  #13a2fe 0%,#13c9fe 100%);
+	background: -ms-linear-gradient(60deg,  #13a2fe 0%,#13c9fe 100%);
+	background: linear-gradient(60deg,  #13a2fe 0%,#13c9fe 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13a2fe', endColorstr='#13c9fe',GradientType=1 );
+	color: #ffffff;
+	padding: 26px 19px 35px;
+}
+
+.hero h1 {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	font-size: 25px;
+}
+
+.hero p {
+	margin: 20px 0 0;
+	font-size: 15px;
+}
+
+.social-types-list .list__item {
+	margin: 0 0 0 15px;
+}
+
+.social-types-list .social-type-icon {
+	vertical-align: middle;
+	margin-top: -1px;
+	margin-right: 11px;
+}
+
+.social-types-list .switch {
+	vertical-align: middle;
+	top: -1px;
+}
+
+
+/*
+ *	Subscriptions page
+ *
+ */
+
+.subscriptions-list .list__item {
+	padding: 0 15px;
+}
+
+
+.inner {
+	padding: 0 20px;
+}
+
+.inner.wide {
+	padding: 0 15px;
+}
+
+p {
+	margin: 20px 0;
+}
+
+.blank {
+	height: 0;
+}
+
+.blank.h25 {
+	margin-top: 25px;
+}

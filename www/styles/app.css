@@ -195,9 +195,6 @@
 	margin-top: 7px;
 }
 
-
-
-
 .profile-card .profile-photo {
 	display: table-cell;
 	vertical-align: middle;
@@ -221,8 +218,42 @@
 	display: table-cell;
 	vertical-align: middle;
 	width: 33%;
-
 }
+
+/*
+ *	Profile settings page
+ *
+ */
+
+.change-profile-photo {
+	padding: 20px 0 25px;
+	border-bottom: 1px solid #dee1e5;
+	text-align: center;
+}
+
+.change-profile-photo img {
+	border: 2px solid #13a2fe;
+	-webkit-border-radius: 47px;
+	-moz-border-radius: 47px;
+	border-radius: 47px;
+	overflow: hidden;
+}
+
+.change-profile-photo .image-label {
+	color: #bec4cd;
+	margin-top: 5px;
+}
+
+.change-profile-photo ons-button {
+	margin-top: 14px;
+}
+
+.profile-settings-form .text-input {
+	width: 100%;
+	background: #ffffff;
+}
+
+
 
 .goals-list .green {
 	color: #0bca24;
@@ -265,6 +296,15 @@ p {
 	margin: 20px 0;
 }
 
+.subtitle {
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #bec4cd;
+	font-weight: bold;
+	padding-top: 21px;
+	padding-bottom: 17px;
+}
+
 .blank {
 	height: 0;
 }
@@ -277,6 +317,12 @@ p {
 	border-top: 1px solid #dee1e5;
 	height: 5px;
 	background: #eaeff3;
+}
+
+
+.padded-list .list__item {
+	margin: 0 0 0 15px;
+	padding-left: 0;
 }
 
 .ons-list-inner .number {

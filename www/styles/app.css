@@ -389,7 +389,7 @@
 
 .aim-info h3 {
 	line-height: 1.27em;
-	margin-top: 8px;
+	margin-top: 12px;
 	margin-bottom: 0;
 	font-size: 18px;
 }
@@ -397,6 +397,7 @@
 .aim-info p {
 	line-height: 1.27em;
 	margin-top: 5px;
+	margin-bottom: 16px;
 }
 
 .deadline {
@@ -586,6 +587,14 @@
 
 
 
+.aim-list .list__item {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.aim-list .subtitle {
+	padding-bottom: 10px;
+}
 
 .inner {
 	padding: 0 20px;
@@ -616,6 +625,11 @@ p {
 	font-weight: bold;
 	padding-top: 21px;
 	padding-bottom: 17px;
+}
+
+.subtitle.inner {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .blank {
